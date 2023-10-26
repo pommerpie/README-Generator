@@ -1,6 +1,6 @@
-# kvjndkvndndkfvndkfvj
+# README Generator Sample
 
-  [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Table of contents
 
 [Description](#desc)
@@ -20,26 +20,26 @@
 
 ## Description
 
-   dfvkjdfvnkjdnf
+   A professional README generator
 ## Installation
 
-   dfkvjndskfv
+   NPM Inquierer
 ## Usage
 
-    dfvkjdfvsd
+    Through the integrated terminal
 ## License
 
-    BDS 3-clause license, https://opensource.org/licenses/BSD-3-Clause
+    MIT, https://opensource.org/licenses/MIT
 ## Contribution
 
-    fvdsfvkjdsfvs
+    N/A
 ## Testing
 
-    dfvsdkfjnsdkfv
+    Through the integrated terminal
 ## Questions
 
     If you have questions about this project, please reach me here:
 
-    https://github.com/kjdfnvkdsfv
+    https://github.com/pommerpie
 
-dfkvjnsdkfv
+pommerpie@gmail.com
