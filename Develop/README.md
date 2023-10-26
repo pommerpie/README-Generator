@@ -1,6 +1,5 @@
 # README Generator Sample
-
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Table of contents
 
 [Description](#desc)
@@ -29,7 +28,7 @@
     Used in integrated terminal
 ## License
 
-    BDS 3-clause license, https://opensource.org/licenses/BSD-3-Clause
+    MIT, https://opensource.org/licenses/MIT
 ## Contribution
 
     N/A
