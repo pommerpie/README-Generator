@@ -1,4 +1,4 @@
-# kvjndkvndndkfvndkfvj
+# README Generator Sample
 
   [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 ## Table of contents
@@ -20,26 +20,26 @@
 
 ## Description
 
-   dfvkjdfvnkjdnf
+   A professional README generator.
 ## Installation
 
-   dfkvjndskfv
+   NPM inquirer
 ## Usage
 
-    dfvkjdfvsd
+    Used in integrated terminal
 ## License
 
     BDS 3-clause license, https://opensource.org/licenses/BSD-3-Clause
 ## Contribution
 
-    fvdsfvkjdsfvs
+    N/A
 ## Testing
 
-    dfvsdkfjnsdkfv
+    Test in integrated terminal
 ## Questions
 
     If you have questions about this project, please reach me here:
 
-    https://github.com/kjdfnvkdsfv
+    https://github.com/pommerpie
 
-dfkvjnsdkfv
+    pommerpie@gmail.com
