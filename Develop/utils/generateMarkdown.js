@@ -56,51 +56,52 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  let start = `# ${data.name}\n
+function genMarkdown(data) {
+  let start = `# ${data.title}\n
   ${renderLicenseBadge(data.license)}`
   let toc = `## Table of contents\n\n`
   let theBody = ``
-if(data.desc.trim() !== ''){
-  toc += `[Description](#desc)\n\n`
-  theBody += `## Description\n
-  ${data.desc}\n`
-}
-if(data.install.trim() !== ''){
-  toc += `[Installation](#install)\n\n`
-  theBody += `## Installation\n
-  ${data.install}\n`
-}
-if(data.usage.trim() !== ''){
-  toc += `[Usage](#usage)\n\n`
-  theBody += `## Usage\n
-  ${data.usage}\n`
-}
-if(data.license.trim() !== ''){
-  toc += `[License](#license)\n\n`
-  theBody += `${renderLicenseSection(data.license)}`
-}
-if(data.cont.trim() !== ''){
-  toc += `[Contribution](#cont)\n\n`
-  theBody += `## Contribution\n
-  ${data.cont}\n`
-}
-if(data.test.trim() !== ''){
-  toc += `[Testing](#test)\n\n`
-  theBody += `## Testing\n
-  ${data.test}\n`
-}
-if(data.user.trim() !== ''){
-  toc += `[Questions](#quest)\n\n`
-  theBody += `## Questions\n
-  If you have questions about this project, please reach me here:\n
-  https://github.com/${data.user}\n\n`
-}
-if(data.email.trim() !== ''){
-  theBody += `${data.email}\n`
-}
-const readME = `${start}\n${toc}\n${theBody}`
-return readME
+   if(data.desc.trim() !== ''){
+   toc += `[Description](#desc)\n\n`
+    theBody += `## Description\n
+   ${data.desc}\n`
+   }
+   if(data.install.trim() !== ''){
+   toc += `[Installation](#install)\n\n`
+   theBody += `## Installation\n
+   ${data.install}\n`
+    }
+    if(data.usage.trim() !== ''){
+    toc += `[Usage](#usage)\n\n`
+    theBody += `## Usage\n
+    ${data.usage}\n`
+    }
+    if(data.license.trim() !== ''){
+    toc += `[License](#license)\n\n`
+    theBody += `${renderLicenseSection(data.license)}`
+    }
+    if(data.cont.trim() !== ''){
+    toc += `[Contribution](#cont)\n\n`
+    theBody += `## Contribution\n
+    ${data.cont}\n`
+    }
+    if(data.test.trim() !== ''){
+    toc += `[Testing](#test)\n\n`
+    theBody += `## Testing\n
+    ${data.test}\n`
+    }
+    if(data.user.trim() !== ''){
+    toc += `[Questions](#quest)\n\n`
+    theBody += `## Questions\n
+    If you have questions about this project, please reach me here:\n
+    https://github.com/${data.user}\n\n`
+    }
+    if(data.email.trim() !== ''){
+    theBody += `${data.email}\n`
+    }
+
+  const readME = `${start}\n${toc}\n${theBody}`
+  return readME
 }
 
-module.exports = generateMarkdown;
+module.exports = genMarkdown;
